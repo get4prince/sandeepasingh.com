@@ -1,0 +1,230 @@
+#header{
+  background-image:url('resume-background.jpg');
+  background-size:100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height:60vh;
+  opacity:0.8;
+  position:relative;
+
+}
+.center-head{
+  font-weight:900;
+  font-size:4em;
+  color:white;
+  margin-top:20vh;
+  text-align:center;
+}
+.img{
+  width:15vw;
+  border-radius:20%;
+  margin-top:-10vh;
+  position:relative;
+  margin-left:43%;
+  border:2px solid #eee;
+}
+.horizontal{
+  list-style:none;
+  margin-top:0px;
+  text-align:center;
+}
+.horizontal li{
+  display:inline-block;
+  margin:0px 2% 2% 0px;
+}
+.horizontal li a{
+  color:white;
+  text-decoration: none;
+  font-size:1.2em;
+}
+body{
+  margin:0px;
+}
+.social{
+  list-style:none;
+  padding:0px;
+  text-align:center;
+  margin-top:5vh;
+}
+.social li{
+  display:inline-block;
+  margin:0px 8px 8px 0px;
+}
+.social li a{
+  color:white;
+  text-decoration: none;
+  font-size:1.2em;
+}
+.about p{
+  font-size:1.4rem;
+  text-align:justify;
+    width:80%;
+      margin:auto auto;
+}
+
+section{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  align-items:center;
+}
+.section-heading{
+  width:auto;
+
+  padding:20px 10px 10px;
+  font-weight:400;
+}
+.section-heading span{
+  font-size: 40px;
+  color:#2857a4;
+  display:inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+.skills-display{
+  width:70%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin:2%;
+  
+}
+#skill-container{
+  display:flex;
+
+}
+.mb75px{
+  margin-bottom:2%;
+}
+.skill-progress{
+  width:8rem;
+  background-color:lightgrey;
+  height:1.8rem;
+  border-radius:0.8rem;
+  margin:1.2rem;
+}
+.eighty-five-percent{
+  width:70%;
+  height:inherit;
+}
+.eighty-percent{
+  width:80%;
+  height:inherit;
+  
+}
+.fifty-percent{
+  width:50%;
+  height:inherit;
+}
+.mb-yellow{
+  background-color:#ffa200;
+}
+.skill-name span{
+  color:white;
+  font-size:0.8rem;
+  margin-left:5px;
+ 
+
+}
+.skill-progress>div{
+  border-radius:20px 0px 0px 20px;
+}
+.mb-blue{
+  background-color:#0353a4;
+}
+.mb-pink{
+  background-color:#f27059;
+}
+.mb-shade{
+  background-color: #ef959d;
+}
+.mb-data{
+  background-color:#ff70a6;
+}
+.timeline{
+  position:relative;
+  width:85%;
+  /* border:1px solid black; */
+}
+.timeline-box{
+  position: relative;
+  width:40%;
+  left:5%;
+  min-height:150px;
+  /* border:2px solid green; */
+}
+.timeline-box:nth-child(2n){
+  left:53%;
+}
+.timeline-divider{
+  position:absolute;
+  height:80%;
+  width:0;
+  border:3px solid #565676;
+  top:10%;
+  left:50%;
+}
+#about p{
+  width:80%;
+  margin-bottom: 3em;
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+  font-size:1.2rem
+}
+.timeline-traveller{
+  top:20%;
+  position:sticky;
+  transform: rotate(180deg);
+  left:2%;
+}
+.timeline-box:nth-child(2n+1)::after{
+  content:'';
+  position:absolute;
+  top:30%;
+  right:-13%;
+  border-radius:50%;
+  width: 0.5rem;
+  height:0.5rem;
+  /* background-color: red; */
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after{
+  content:'';
+  position:absolute;
+  top:30%;
+  left:-9%;
+  border-radius:50%;
+  width: 0.5rem;
+  height:0.5rem;
+  /* background-color: red; */
+  z-index: 1;
+}
+
+.hero-bkg-animated {
+  background: gray url('y-so-serious-white.png') repeat 0 0;
+  width: 100%;
+padding-bottom: 5rem;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+#skills{
+  margin-top:100px;
+}
+/* https://subtlepatterns.com/patterns/geometry2.png */
+#portfolio{
+  margin-bottom: 6%;
+}
+#portfolio ul{
+  font-family: 'Catamaran', sans-serif;
+}
+.experience{
+  font-weight:bold;color:#ffba08;  font-family: 'Lato', sans-serif;font-size:1.2rem;
+}
